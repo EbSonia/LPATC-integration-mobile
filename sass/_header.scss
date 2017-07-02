@@ -1,39 +1,24 @@
 
 //<!-- fond -->
 #content {
-  //width: 1400px;
-  //height: 3317px;
   background-color: $white-three;
 }
 
+
+
 //<!-- Blocks -->
-#block1{
-  padding-bottom: 15px;
-  #identite {
-  margin-top:32px;
-  }
-}
+#container1{
+  display: flex;
+  flex-direction:row;
+  background-color: $charcoal-grey;
+  align-items:space-around;
+  height:75px;
 
-#block2{
-  margin-top:61px;
-  #nav ul{
-    float:left;
-    list-style:none;
-    li{
-      margin-right: 40px;
-      display: inline-block;
-    }
+  .element:nth-child(1){
+   align-self:flex-start;
+   width:70%;
   }
-}
-
-#block3{
-  margin-top:41px;
-  #nav-bis ul{
-    display: inline-block;
-    list-style:none;
-    li{
-      float:right;
-      padding-right: 40px;
-    }
+  .element:nth-child(2){
+   align-self:flex-end;
   }
 }

@@ -1,60 +1,54 @@
 
-            // <!-- Block 4 -->
-#block4{
-  .titreTextePhoto1{
-    margin-left:-150px;
-    //margin-top:30px;
-    margin-bottom:30px;
+            // <!-- Container 2 -->
+
+
+.titreTextePhoto1{
+    //margin-bottom:30px;
     background-color:$white-three;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left: 30px;
+    //padding-top:10px;
+    //padding-bottom:10px;
+    //padding-left: 30px;
   }
-}
 
 
-              // <!-- Block 5 -->
-#block5{
-  display: inline-block;
+#Recherche {
+  height: 171px;
+  background-color: $earth;
   text-align:center;
-  #Recherche {
-    height: 167px;
-    background-color: $earth;
+  #rechercheTitre {
+    padding: 10px;
     text-align:center;
-    #rechercheTitre {
-      padding-top: 10px;
-    }
-    #recherche-avance {
-      font-family:$open-sans;
-      font-size: 10px;
-      text-align:left;
-      padding-top: 10px;
-      color: $white-three;
-    }
+  }
+  #recherche-avance {
+    font-family:$open-sans;
+    font-size: 10px;
+    text-align:left;
+    padding-top: 10px;
+    color: $white-three;
   }
 }
 
-                  // <!-- Block 6 -->
-#block6{
-  .col-lg-5 {
+#archiWiki{
     background-color: $white-two;
     padding-left:30px;
   }
-  #textePhoto2{
-    @extend .texteCourant;
-  }
-  #lireSuite{
-    display: inline-block;
-    text-align:left;
-    position:fixed;
-  }
-  #decActus{
-    display: inline-block;
-    //text-align:right;
-  }
+
+#textePhoto2{
+  @extend .texteCourant;
+}
+.lireSuite{
+  display: inline-block;
+  text-align:left;
+  position:fixed;
+}
+.decActus{
+  display: inline-block;
+  //text-align:right;
 }
 
-                  // <!-- Block 7 -->
+            // <!-- Container 3 -->
+
+
 .photoBloc1 {
   background-size: cover;
   background-repeat:no-repeat;
@@ -137,14 +131,14 @@
 
 
                       // <!-- Block 9 -->
-  #block9{
-    margin-left:150px;
-    margin-right:50px;
-    margin-bottom: 70px;
-    button{
-      color:$charcoal-grey;
-      font-family:$open-sans;
-      font-size:18px;
-      padding:15px;
-      }
+#block9{
+  margin-left:150px;
+  margin-right:50px;
+  margin-bottom: 70px;
+  button{
+    color:$charcoal-grey;
+    font-family:$open-sans;
+    font-size:18px;
+    padding:15px;
+    }
   }
